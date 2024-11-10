@@ -923,6 +923,7 @@ body {
 [data-page-route="Workspaces"] {
 	@media (min-width: map-get($grid-breakpoints, "lg")) {
 		.layout-main {
+			// padding-top: 3.5rem;
 			height: calc(100vh - var(--navbar-height) - var(--page-head-height) - 5px);
 			max-width: var(--page-max-width);
 			margin: auto;
